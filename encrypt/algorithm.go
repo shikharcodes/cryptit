@@ -1,5 +1,7 @@
+// encrypt package consists of all the encryption algorithms
 package encrypt
 
+// encrypts by increasing the ascii code for each character by 3
 func EncryptStr(str string) string {
 	encryptedString := ""
 	for _, c := range str {
